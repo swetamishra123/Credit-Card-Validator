@@ -39,3 +39,30 @@ The algorithm works as follows:
 
 ## Example Output
 
+```bash
+
+This program uses the Luhn Algorithm to validate a CC number.
+You can enter 'exit' anytime to quit.
+Please enter a CC number to validate: 4263982640269299
+Valid!
+Please enter a CC number to validate: 4983948596068655
+Invalid!
+Please enter a CC number to validate: 8957859403857785
+Invalid!
+Please enter a CC number to validate: 2223000048410010
+Valid!
+Please enter a CC number to validate: exit
+```
+
+## Program Explanation
+
+- The program starts by prompting the user to enter a credit card number. You can exit by typing 'exit'.
+- It checks if the input is a valid number (only digits), and if not, it asks for input again.
+- It then applies the Luhn Algorithm to validate the credit card number.
+- The result is displayed as "Valid!" if the credit card is valid and "Invalid!" if it's not.
+
+This program demonstrates a simple implementation of the Luhn Algorithm for credit card validation in C++.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
